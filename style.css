@@ -1,0 +1,748 @@
+@import url(https://fonts.googleapis.com/css?family=Bai+Jamjuree:200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'bai jamjuree', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    width: auto;
+    overflow-x: hidden;
+}
+
+header{
+    width: auto;
+    height: 100vh;
+    background-image: url(assets/PNG/Hero_BG.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+.nav_items{
+    width: 1200px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 200px;
+        
+}
+
+.nav_link{
+    font-family: 'bai jamjuree' ,sans-serif;
+    font-size: 28px;
+    font-weight: 100px;
+    color: black;
+    transition: all 0.4s ease-in-out;
+}
+
+.nav_link:hover{
+    color: #757575;
+}
+
+
+.hero_girl{
+    position: absolute;
+    top: 58%;
+    left: 71%;
+    animation-name: hero_girl;
+    animation-duration: 2s;
+    animation-name: girl ;
+    animation: girl 2s ease-in-out infinite alternate;
+   
+
+}
+
+
+@keyframes hero_girl{
+   from{
+       top: 55%;
+       opacity: 0%;
+    }
+    to{
+        top: 58%;
+        opacity: 100%;
+    }
+}
+
+@keyframes girl {
+    from{
+        top: 56%;
+    }
+
+    to{
+     top: 58%;
+    }
+}
+
+
+.girl{
+    width: 300px;
+}
+
+
+
+
+.hero_info{
+    max-width: 1000px;
+    margin: 130px 0px 0px 260px;
+
+}
+
+.logo{
+    margin-bottom: 30px;
+    width: 250px;
+    animation: logo 1s ease-in-out alternate;
+}
+
+@keyframes logo{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+h2{
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 1%;
+    line-height: 80px;
+}
+
+span{
+    color: #FF8181;
+}
+
+.first_line{
+  animation: first 1s alternate;
+
+}
+@keyframes first{
+    0%{
+        opacity: 0%;
+     }
+ 
+     50%{
+         margin-left: 50px;
+         opacity: 0%;
+     }
+ 
+     100%{
+         margin: 0px;
+         opacity: 100%;
+     }
+}
+.secont_line{
+animation: second 1.2s alternate;
+
+
+
+}
+
+@keyframes second{
+    0%{
+       opacity: 0%;
+    }
+
+    50%{
+        margin-left: 150px;
+        opacity: 0%;
+    }
+
+    100%{
+        margin: 0px;
+        opacity: 100%;
+    }
+}
+
+
+.third_line{
+    animation: third 1.4s alternate;
+}
+
+@keyframes third{
+    0%{
+       opacity: 0%;
+    }
+
+    50%{
+        margin-left: 200px;
+        opacity: 0%;
+    }
+
+    100%{
+        margin: 0px;
+        opacity: 100%;
+    }
+}
+
+
+.hero_discription{
+    width: 500px;
+    font-size: 20px;
+    font-weight: 300px;
+    margin-top: 50px;
+    line-height: 30px;
+    animation: hero_p 1s ease-in alternate;
+}
+
+@keyframes hero_p{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+
+
+.hero_btn{
+    width: 250px;
+    height: 50px;
+    border: 0px;
+    border-radius: 100px;
+    background-image: linear-gradient(to right, #FF8181 0%, #F85353 100%);
+    text-align: center;
+    margin-top: 50px;
+    cursor: pointer;
+
+}
+
+.hero_btn:hover{
+    background-image: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
+    border: 3px solid #F85353;
+}
+
+
+
+
+
+.signup_btn{
+    padding: 10px 80px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.signup_btn:hover{
+    color: #F85353;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+main{
+    width: auto;
+    margin-top: 100px;
+}
+
+.main_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_info_text{
+    width: auto;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'bai jamjuree' ,sans-serif;
+    font-size: 50px;
+    margin-bottom: 30px;
+
+   
+}
+
+.info_discription_1{
+    width: 800px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+
+}
+
+.info_discription_2{
+    width: 700px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+ .why_yoga{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+
+.yoga_container{
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+.card{
+    background-color: #EFEFEF;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.card_img{
+    width: 180px;
+    margin-top: 30px;
+}
+
+
+.card_title{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+.card_discription{
+    width: 300px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+.section_1{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.section_studio{
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+
+
+.section_container{
+    width: 700px;
+
+}
+
+
+.section_title{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.section_description{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+.studio_info_container{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.about_card{
+    width: 150px;
+   
+}
+
+.about_studio{
+    font-weight: 500;
+    font-size: 40px;
+    color: #FF8181;
+}
+
+.two{
+    font-size: 20px;
+    font-weight: 700;   
+}
+
+
+.section_2{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    
+}
+
+.our_practice_container{
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.our_practice{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.practice_title{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+
+.our_practice_description{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+.practice_card_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.practice_card{
+    width: 1350px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.arrow_left{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.arrow_right{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.practice_card_discription{
+    width: 250px;
+    text-align: center;
+}
+
+
+.section_3{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+
+.self_yoga_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.self_card{
+    width: 250px;
+    margin-top: 20px;
+}
+
+.self_description{
+    margin-top: 20px;
+}
+
+.section_4{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+
+}
+
+
+.our_teacher{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.teacher_title{
+    font-size: 50px;   
+    color: #FF8181;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+
+.our_teacher_description{
+    width: 700px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.teacher_card{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    opacity: 100%;
+    transition: all .5s ease-in-out;
+}
+
+.card_1:hover{
+    opacity: 80%;
+
+}
+
+
+.teacher_img{
+    width: 250px;
+    opacity: 100%;
+    
+}
+
+
+
+
+
+.section_5{
+    width: auto;
+    margin-top: 150px;
+    
+}
+
+
+.gallery_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery_title{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.first_row{
+    margin-top: 100px;
+}
+
+.gallery_1{
+    width: 300px;
+    height: 350px;
+    object-fit:cover;
+    object-position: 70% 30%;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.gallery_1:hover{
+    transform: scale(102%);
+}
+
+
+
+.gallery_2{
+    width: 600px;
+    height: 350px;
+    border-radius: 35px;
+    object-fit: cover;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+
+}
+
+.gallery_2:hover{
+    transform: scale(102%);
+}
+
+.gallery_3{
+    width: 300px;
+    height: 350px;
+    object-fit:cover;
+    object-position: 60% 40%;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.gallery_3:hover{
+    transform: scale(102%);
+}
+
+.second_row{
+    width: 1250px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery_4{
+    width: 620px;
+    height: 350px;
+    border-radius: 35px;
+    object-fit:cover;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+
+}
+
+.gallery_4:hover{
+    transform: scale(102%);
+}
+
+.gallery_5{
+    width: 620px;
+    height: 350px;
+    border-radius: 35px;
+    object-fit:cover;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.gallery_5:hover{
+    transform: scale(102%);
+}
+
+
+.third_row{
+    margin-top: 10px;
+    position: relative;
+}
+
+.gallery_6{
+    width: 300px;
+    height: 350px;
+    object-fit:cover;
+    object-position: 70% 30%;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.gallery_6:hover{
+    transform: scale(102%);
+}
+
+.gallery_7{
+    width: 620px;
+    height: 350px;
+    border-radius: 35px;
+    object-fit: cover;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+
+}
+
+.gallery_7:hover{
+    transform: scale(102%);
+}
+
+.gallery_8{
+    width: 300px;
+    height: 350px;
+    object-fit:cover;
+    object-position: 60% 40%;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.gallery_8:hover{
+    transform: scale(102%);
+}
+
+.footer_curve{
+   position: absolute;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   z-index: -1;
+   margin-top: 800px;
+}
+
+.footer_img{
+    width: 100%;
+}
+
+
+.footer_bg{
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+    display: flex;
+    justify-content: center;
+    margin-top: 2300px;
+}
+
+.footer_bg_img{
+    width: 100%;
+}
